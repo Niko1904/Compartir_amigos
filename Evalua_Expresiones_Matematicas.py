@@ -18,12 +18,12 @@ def calculate_total(ppostf):
             if j == "*":
                 r = n1 * n2
 
-            if j == "/" or j == "%": # % Porcentaje
+            if j == "/":
                 r = n1 / n2
 
-            # Porcentaje
-            #if j == "%":
-                #r = n1 / n2
+            # Modulo
+            if j == "%":
+                r = n1 % n2
 
             # Potencia
             if j == "**" or j == "^":
